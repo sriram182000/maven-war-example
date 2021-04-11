@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "Hello\nDeploy war file into Tomcat container using Jenkins automation by Deekshith_Maram");
+		get("/hello", (req, res) -> "Deployed war file successfully into Tomcat container using Jenkins automation by Deekshith");
 	}
 }
